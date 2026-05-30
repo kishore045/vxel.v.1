@@ -1,8 +1,9 @@
+const isLocalApp = ["", "localhost", "127.0.0.1"].includes(location.hostname);
 const API_BASES = [
   window.VIXELRY_API_BASE,
   location.protocol.startsWith("http") ? `${location.origin}/api` : "",
-  "http://localhost:4000/api",
-  "http://127.0.0.1:4000/api"
+  isLocalApp ? "http://localhost:4000/api" : "",
+  isLocalApp ? "http://127.0.0.1:4000/api" : ""
 ].filter(Boolean);
 const TOKEN_KEY = "vixelry_api_token";
 const USER_KEY = "vixelry_api_user";
