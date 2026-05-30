@@ -1,0 +1,41 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.13.0
+2 info using node@v26.2.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\muthu\OneDrive\Documents\Content Creation\backend\.npmrc
+5 silly config load:file:C:\Users\muthu\.npmrc
+6 silly config load:file:C:\Users\muthu\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--no-audit" "--no-fund" "--progress" "false" "--cache" ".\\.npm-cache"
+9 verbose logfile logs-max:10 dir:C:\Users\muthu\OneDrive\Documents\Content Creation\backend\.npm-cache\_logs\2026-05-30T04_18_32_829Z-
+10 verbose logfile C:\Users\muthu\OneDrive\Documents\Content Creation\backend\.npm-cache\_logs\2026-05-30T04_18_32_829Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2248146944 maxSize:562036736 maxEntrySize:281018368
+13 silly idealTree buildDeps
+14 silly fetch manifest bcryptjs@^2.4.3
+15 silly packumentCache full:https://registry.npmjs.org/bcryptjs cache-miss
+16 http fetch GET https://registry.npmjs.org/bcryptjs attempt 1 failed with EACCES
+17 http fetch GET https://registry.npmjs.org/npm attempt 1 failed with EACCES
+18 http fetch GET https://registry.npmjs.org/bcryptjs attempt 2 failed with EACCES
+19 http fetch GET https://registry.npmjs.org/npm attempt 2 failed with EACCES
+20 http fetch GET https://registry.npmjs.org/bcryptjs attempt 3 failed with EACCES
+21 silly fetch manifest better-sqlite3@^11.8.1
+22 silly packumentCache full:https://registry.npmjs.org/better-sqlite3 cache-miss
+23 http fetch GET https://registry.npmjs.org/npm attempt 3 failed with EACCES
+24 http fetch GET https://registry.npmjs.org/better-sqlite3 attempt 1 failed with EACCES
+25 http fetch GET https://registry.npmjs.org/better-sqlite3 attempt 2 failed with EACCES
+26 http fetch GET https://registry.npmjs.org/better-sqlite3 attempt 3 failed with EACCES
+27 silly fetch manifest cors@^2.8.5
+28 silly packumentCache full:https://registry.npmjs.org/cors cache-miss
+29 http fetch GET https://registry.npmjs.org/cors attempt 1 failed with EACCES
+30 http fetch GET https://registry.npmjs.org/cors attempt 2 failed with EACCES
+31 http fetch GET https://registry.npmjs.org/cors attempt 3 failed with EACCES
+32 silly fetch manifest dotenv@^16.4.7
+33 silly packumentCache full:https://registry.npmjs.org/dotenv cache-miss
+34 http fetch GET https://registry.npmjs.org/dotenv attempt 1 failed with EACCES
+35 http fetch GET https://registry.npmjs.org/dotenv attempt 2 failed with EACCES
+36 http fetch GET https://registry.npmjs.org/dotenv attempt 3 failed with EACCES
+37 silly fetch manifest express@^4.21.2
+38 silly packumentCache full:https://registry.npmjs.org/express cache-miss
+39 http fetch GET https://registry.npmjs.org/express attempt 1 failed with EACCES
+40 http fetch GET https://registry.npmjs.org/express attempt 2 failed with EACCES

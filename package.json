@@ -1,0 +1,11 @@
+{
+  "name": "vixelry-crm-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node backend/dev-server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

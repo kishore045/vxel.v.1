@@ -1,0 +1,276 @@
+{
+  "users": [
+    {
+      "id": "usr_admin",
+      "name": "Vixelry Admin",
+      "email": "admin@vixelry.com",
+      "password": "Admin@123",
+      "role": "admin",
+      "clientId": null
+    },
+    {
+      "id": "usr_client",
+      "name": "Client User",
+      "email": "client@vixelry.com",
+      "password": "Client@123",
+      "role": "client",
+      "clientId": "client_uro"
+    },
+    {
+      "id": "usr_1780135090519",
+      "name": "kishore babu",
+      "email": "kishorebabu182005@gmail.com",
+      "password": "kishore@40490",
+      "role": "client",
+      "clientId": "client_1780135090519"
+    }
+  ],
+  "clients": [
+    {
+      "id": "12345",
+      "name": "kishore babu",
+      "owner_user_id": "kishore",
+      "phone": "06383257265",
+      "email": "kishorebabu182005@gmail.com",
+      "plan": "Starter",
+      "status": "active",
+      "join_date": "2026-05-30",
+      "updated_at": "2026-05-30T14:38:22.689Z",
+      "created_at": "2026-05-30T14:38:11.134Z"
+    },
+    {
+      "id": "client_1780135090519",
+      "name": "kishore babu",
+      "owner_user_id": "usr_1780135090519",
+      "status": "onboarding",
+      "phone": "",
+      "email": "kishorebabu182005@gmail.com",
+      "plan": "Starter",
+      "join_date": "2026-05-30",
+      "updated_at": "2026-05-30T14:48:09.577Z",
+      "created_at": "2026-05-30T09:58:10.521Z"
+    },
+    {
+      "id": "dfdafdf",
+      "name": "Uro Mobiles",
+      "owner_user_id": "kishore",
+      "phone": "+916383257265",
+      "email": "22it05ucet@gmail.com",
+      "plan": "Starter",
+      "status": "active",
+      "join_date": "2026-05-30",
+      "updated_at": "2026-05-30T09:18:51.916Z",
+      "created_at": "2026-05-30T09:17:08.074Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "prj_1780137816571",
+      "client_id": "client_1780135090519",
+      "name": "adsfadsf",
+      "service_type": "Website Development",
+      "manager": "",
+      "priority": "Medium",
+      "budget": 23444,
+      "start_date": "2026-05-30",
+      "end_date": "2026-05-01",
+      "status": "onboarding",
+      "team": {
+        "seo": "",
+        "ads": "",
+        "content": "",
+        "designer": "",
+        "developer": ""
+      },
+      "files": [],
+      "notes": [],
+      "milestones": [],
+      "created_at": "2026-05-30T10:43:36.571Z",
+      "updated_at": "2026-05-30T10:43:36.571Z"
+    },
+    {
+      "id": "prj_1780137741355",
+      "client_id": "client_1780135090519",
+      "name": "asdfadsf",
+      "service_type": "General",
+      "manager": "",
+      "priority": "Medium",
+      "budget": 0,
+      "start_date": "2026-05-30",
+      "end_date": null,
+      "status": "onboarding",
+      "team": {
+        "seo": "",
+        "ads": "dsafdasf",
+        "content": "dasfasdf",
+        "designer": "dasf",
+        "developer": "adsf"
+      },
+      "files": [],
+      "notes": [],
+      "milestones": [],
+      "created_at": "2026-05-30T10:42:21.355Z",
+      "updated_at": "2026-05-30T10:42:21.355Z"
+    },
+    {
+      "id": "prj_1780137717064",
+      "client_id": "client_1780135090519",
+      "name": "kishore babu",
+      "service_type": "Branding",
+      "manager": "dfadsfasdf",
+      "priority": "Medium",
+      "budget": 1233333,
+      "start_date": "2026-05-04",
+      "end_date": "2026-05-22",
+      "status": "onboarding",
+      "team": {
+        "seo": "dsfasdf",
+        "ads": "dasfasf",
+        "content": "",
+        "designer": "",
+        "developer": ""
+      },
+      "files": [],
+      "notes": [],
+      "milestones": [],
+      "created_at": "2026-05-30T10:41:57.064Z",
+      "updated_at": "2026-05-30T10:41:57.064Z"
+    },
+    {
+      "id": "prj_1780132669287",
+      "client_id": "dfdafdf",
+      "name": "kishore babu",
+      "service_type": "Branding",
+      "manager": "Kishore babu",
+      "priority": "Medium",
+      "budget": 22999,
+      "start_date": "2026-05-25",
+      "end_date": "2026-05-28",
+      "status": "review",
+      "team": {
+        "seo": "",
+        "ads": "",
+        "content": "",
+        "designer": "Kishore",
+        "developer": ""
+      },
+      "files": [],
+      "notes": [],
+      "milestones": [],
+      "created_at": "2026-05-30T09:17:49.288Z",
+      "updated_at": "2026-05-30T09:18:51.916Z"
+    }
+  ],
+  "tasks": [],
+  "reports": [],
+  "invoices": [
+    {
+      "id": "inv_1780132702840",
+      "client_id": "dfdafdf",
+      "project_id": "prj_1780132669287",
+      "invoice_number": "VIX-001",
+      "amount": 19000,
+      "taxable_amount": 19000,
+      "gst_percentage": 18,
+      "gst_amount": 3420,
+      "total_amount": 22420,
+      "paid_amount": 19000,
+      "payment_status": "paid",
+      "status": "paid",
+      "issued_at": "2026-05-30",
+      "due_at": "2026-05-04",
+      "notes": ""
+    }
+  ],
+  "leads": [],
+  "expenses": [],
+  "employees": [],
+  "tickets": [],
+  "documents": [],
+  "notifications": [
+    {
+      "id": "not_1780152489577_b2ac94a87eaac",
+      "role": "admin",
+      "client_id": null,
+      "message": "Project removed: dasfasdf.",
+      "created_at": "2026-05-30T14:48:09.577Z"
+    },
+    {
+      "id": "not_1780152484726_d811c0f5a1204",
+      "role": "admin",
+      "client_id": null,
+      "message": "Project removed: kishore babu.",
+      "created_at": "2026-05-30T14:48:04.726Z"
+    },
+    {
+      "id": "not_1780151902689_3e827242441eb8",
+      "role": "admin",
+      "client_id": null,
+      "message": "Client updated: kishore babu.",
+      "created_at": "2026-05-30T14:38:22.689Z"
+    },
+    {
+      "id": "not_1780151891134_9c4373fbb7c91",
+      "role": "admin",
+      "client_id": null,
+      "message": "New client added: kishore babu.",
+      "created_at": "2026-05-30T14:38:11.134Z"
+    },
+    {
+      "id": "not_1780151330334_83e30113260488",
+      "role": "admin",
+      "client_id": null,
+      "message": "Project status changed: kishore babu is now active.",
+      "created_at": "2026-05-30T14:28:50.334Z"
+    },
+    {
+      "id": "not_1780132711387",
+      "role": "admin",
+      "message": "Payment received for VIX-001.",
+      "created_at": "2026-05-30T09:18:31.387Z"
+    },
+    {
+      "id": "not_1780132702841",
+      "role": "admin",
+      "message": "New invoice VIX-001 created.",
+      "created_at": "2026-05-30T09:18:22.841Z"
+    }
+  ],
+  "socialWorkspaces": [
+    {
+      "id": "soc_12345",
+      "client_id": "12345",
+      "brand_name": "kishore babu",
+      "brand_colors": "#6abf40, #ff6b00",
+      "guidelines": "",
+      "social_links": {},
+      "competitors": [],
+      "created_at": "2026-05-30T14:38:11.134Z"
+    },
+    {
+      "id": "soc_dfdafdf",
+      "client_id": "dfdafdf",
+      "brand_name": "Uro Mobiles",
+      "brand_colors": "#6abf40, #ff6b00",
+      "guidelines": "",
+      "social_links": {},
+      "competitors": [],
+      "created_at": "2026-05-30T10:26:27.893Z"
+    },
+    {
+      "id": "soc_client_1780135090519",
+      "client_id": "client_1780135090519",
+      "brand_name": "kishore babu",
+      "brand_colors": "#6abf40, #ff6b00",
+      "guidelines": "",
+      "social_links": {},
+      "competitors": [],
+      "created_at": "2026-05-30T10:26:27.893Z"
+    }
+  ],
+  "socialAccounts": [],
+  "contentPosts": [],
+  "socialCampaigns": [],
+  "socialAssets": [],
+  "socialReports": []
+}

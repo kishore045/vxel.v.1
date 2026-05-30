@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register | Vixelry</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="auth.css">
+</head>
+<body>
+  <main class="auth-shell">
+    <section class="auth-brand-panel">
+      <a href="index.html"><img class="auth-logo" src="images/vixelry-logo.png" alt="Vixelry Digital Marketing Agency"></a>
+      <div>
+        <h1>Create your Vixelry account.</h1>
+        <p>Register as a client to view assigned projects, reports, invoices, documents, meetings, and support tickets.</p>
+      </div>
+    </section>
+    <section class="auth-card-wrap">
+      <form class="auth-card" data-register-form>
+        <h2>Register</h2>
+        <p>Admin registration requires the agency invite code.</p>
+        <div class="form-grid">
+          <div class="field">
+            <label for="name">Full name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password" minlength="8" autocomplete="new-password" required>
+          </div>
+          <div class="field">
+            <label for="role">Role</label>
+            <select id="role" name="role">
+              <option value="client">Client</option>
+              <option value="admin">Admin</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="inviteCode">Admin invite code</label>
+            <input id="inviteCode" name="inviteCode" type="text" placeholder="Required only for admin">
+          </div>
+          <button class="auth-button" type="submit">Create Account</button>
+        </div>
+        <div class="auth-message" data-auth-message></div>
+        <div class="auth-row">
+          <span>Already registered? <a href="login.html">Login</a></span>
+        </div>
+      </form>
+    </section>
+  </main>
+  <script src="config.js"></script>
+  <script src="auth.js"></script>
+</body>
+</html>
