@@ -27,28 +27,16 @@
   ],
   "clients": [
     {
-      "id": "12345",
-      "name": "kishore babu",
-      "owner_user_id": "kishore",
-      "phone": "06383257265",
+      "id": "tata_Motors",
+      "name": "TVS MOTORS",
+      "owner_user_id": "Surya",
+      "phone": "6383257265",
       "email": "kishorebabu182005@gmail.com",
-      "plan": "Starter",
-      "status": "active",
-      "join_date": "2026-05-30",
-      "updated_at": "2026-05-30T14:38:22.689Z",
-      "created_at": "2026-05-30T14:38:11.134Z"
-    },
-    {
-      "id": "client_1780135090519",
-      "name": "kishore babu",
-      "owner_user_id": "usr_1780135090519",
+      "plan": "Growth",
       "status": "onboarding",
-      "phone": "",
-      "email": "kishorebabu182005@gmail.com",
-      "plan": "Starter",
       "join_date": "2026-05-30",
-      "updated_at": "2026-05-30T14:48:09.577Z",
-      "created_at": "2026-05-30T09:58:10.521Z"
+      "updated_at": "2026-05-30T15:51:15.996Z",
+      "created_at": "2026-05-30T15:50:13.996Z"
     },
     {
       "id": "dfdafdf",
@@ -59,21 +47,21 @@
       "plan": "Starter",
       "status": "active",
       "join_date": "2026-05-30",
-      "updated_at": "2026-05-30T09:18:51.916Z",
+      "updated_at": "2026-05-30T15:49:21.951Z",
       "created_at": "2026-05-30T09:17:08.074Z"
     }
   ],
   "projects": [
     {
-      "id": "prj_1780137816571",
-      "client_id": "client_1780135090519",
-      "name": "adsfadsf",
-      "service_type": "Website Development",
-      "manager": "",
-      "priority": "Medium",
-      "budget": 23444,
-      "start_date": "2026-05-30",
-      "end_date": "2026-05-01",
+      "id": "prj_1780156275994",
+      "client_id": "tata_Motors",
+      "name": "TVS Digital Marketing Project",
+      "service_type": "Meta Ads",
+      "manager": "Surya Prakash",
+      "priority": "Low",
+      "budget": 9999,
+      "start_date": "2026-05-01",
+      "end_date": "2026-05-27",
       "status": "onboarding",
       "team": {
         "seo": "",
@@ -85,109 +73,75 @@
       "files": [],
       "notes": [],
       "milestones": [],
-      "created_at": "2026-05-30T10:43:36.571Z",
-      "updated_at": "2026-05-30T10:43:36.571Z"
-    },
-    {
-      "id": "prj_1780137741355",
-      "client_id": "client_1780135090519",
-      "name": "asdfadsf",
-      "service_type": "General",
-      "manager": "",
-      "priority": "Medium",
-      "budget": 0,
-      "start_date": "2026-05-30",
-      "end_date": null,
-      "status": "onboarding",
-      "team": {
-        "seo": "",
-        "ads": "dsafdasf",
-        "content": "dasfasdf",
-        "designer": "dasf",
-        "developer": "adsf"
-      },
-      "files": [],
-      "notes": [],
-      "milestones": [],
-      "created_at": "2026-05-30T10:42:21.355Z",
-      "updated_at": "2026-05-30T10:42:21.355Z"
-    },
-    {
-      "id": "prj_1780137717064",
-      "client_id": "client_1780135090519",
-      "name": "kishore babu",
-      "service_type": "Branding",
-      "manager": "dfadsfasdf",
-      "priority": "Medium",
-      "budget": 1233333,
-      "start_date": "2026-05-04",
-      "end_date": "2026-05-22",
-      "status": "onboarding",
-      "team": {
-        "seo": "dsfasdf",
-        "ads": "dasfasf",
-        "content": "",
-        "designer": "",
-        "developer": ""
-      },
-      "files": [],
-      "notes": [],
-      "milestones": [],
-      "created_at": "2026-05-30T10:41:57.064Z",
-      "updated_at": "2026-05-30T10:41:57.064Z"
-    },
-    {
-      "id": "prj_1780132669287",
-      "client_id": "dfdafdf",
-      "name": "kishore babu",
-      "service_type": "Branding",
-      "manager": "Kishore babu",
-      "priority": "Medium",
-      "budget": 22999,
-      "start_date": "2026-05-25",
-      "end_date": "2026-05-28",
-      "status": "review",
-      "team": {
-        "seo": "",
-        "ads": "",
-        "content": "",
-        "designer": "Kishore",
-        "developer": ""
-      },
-      "files": [],
-      "notes": [],
-      "milestones": [],
-      "created_at": "2026-05-30T09:17:49.288Z",
-      "updated_at": "2026-05-30T09:18:51.916Z"
+      "created_at": "2026-05-30T15:51:15.994Z",
+      "updated_at": "2026-05-30T15:51:15.995Z"
     }
   ],
   "tasks": [],
   "reports": [],
-  "invoices": [
-    {
-      "id": "inv_1780132702840",
-      "client_id": "dfdafdf",
-      "project_id": "prj_1780132669287",
-      "invoice_number": "VIX-001",
-      "amount": 19000,
-      "taxable_amount": 19000,
-      "gst_percentage": 18,
-      "gst_amount": 3420,
-      "total_amount": 22420,
-      "paid_amount": 19000,
-      "payment_status": "paid",
-      "status": "paid",
-      "issued_at": "2026-05-30",
-      "due_at": "2026-05-04",
-      "notes": ""
-    }
-  ],
+  "invoices": [],
   "leads": [],
   "expenses": [],
   "employees": [],
   "tickets": [],
   "documents": [],
   "notifications": [
+    {
+      "id": "not_1780156276016_beedbc088f5358",
+      "role": "admin",
+      "client_id": null,
+      "message": "Project created: TVS Digital Marketing Project for TVS MOTORS.",
+      "created_at": "2026-05-30T15:51:16.016Z"
+    },
+    {
+      "id": "not_1780156213996_d31a462a4d5b88",
+      "role": "admin",
+      "client_id": null,
+      "message": "New client added: TVS MOTORS.",
+      "created_at": "2026-05-30T15:50:13.996Z"
+    },
+    {
+      "id": "not_1780156177304_69b00eec334a8",
+      "role": "admin",
+      "client_id": null,
+      "message": "Client deleted: kishore babu.",
+      "created_at": "2026-05-30T15:49:37.304Z"
+    },
+    {
+      "id": "not_1780156177227_af8c8606536588",
+      "role": "admin",
+      "client_id": null,
+      "message": "Client deleted: kishore babu.",
+      "created_at": "2026-05-30T15:49:37.227Z"
+    },
+    {
+      "id": "not_1780156161951_b02522578259f8",
+      "role": "admin",
+      "client_id": null,
+      "message": "Project removed: kishore babu.",
+      "created_at": "2026-05-30T15:49:21.951Z"
+    },
+    {
+      "id": "not_1780156157585_1c8040ea52954",
+      "role": "admin",
+      "client_id": null,
+      "message": "Project removed: kishore babu.",
+      "created_at": "2026-05-30T15:49:17.585Z"
+    },
+    {
+      "id": "not_1780156153159_876403b60b0838",
+      "role": "admin",
+      "client_id": null,
+      "message": "Project removed: asdfadsf.",
+      "created_at": "2026-05-30T15:49:13.159Z"
+    },
+    {
+      "id": "not_1780156148686_eecd3d08e0b848",
+      "role": "admin",
+      "client_id": null,
+      "message": "Project removed: adsfadsf.",
+      "created_at": "2026-05-30T15:49:08.686Z"
+    },
     {
       "id": "not_1780152489577_b2ac94a87eaac",
       "role": "admin",
@@ -238,29 +192,19 @@
   ],
   "socialWorkspaces": [
     {
-      "id": "soc_12345",
-      "client_id": "12345",
-      "brand_name": "kishore babu",
+      "id": "soc_tata_Motors",
+      "client_id": "tata_Motors",
+      "brand_name": "TVS MOTORS",
       "brand_colors": "#6abf40, #ff6b00",
       "guidelines": "",
       "social_links": {},
       "competitors": [],
-      "created_at": "2026-05-30T14:38:11.134Z"
+      "created_at": "2026-05-30T15:50:13.996Z"
     },
     {
       "id": "soc_dfdafdf",
       "client_id": "dfdafdf",
       "brand_name": "Uro Mobiles",
-      "brand_colors": "#6abf40, #ff6b00",
-      "guidelines": "",
-      "social_links": {},
-      "competitors": [],
-      "created_at": "2026-05-30T10:26:27.893Z"
-    },
-    {
-      "id": "soc_client_1780135090519",
-      "client_id": "client_1780135090519",
-      "brand_name": "kishore babu",
       "brand_colors": "#6abf40, #ff6b00",
       "guidelines": "",
       "social_links": {},

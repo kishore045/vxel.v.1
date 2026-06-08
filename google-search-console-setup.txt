@@ -1,0 +1,5 @@
+Google Search Console setup:
+1. Verify domain/property.
+2. Replace PASTE_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE_HERE in HTML files.
+3. Submit sitemap: https://gktraininginstitute.in/sitemap.xml
+4. Request indexing for index.html, academy.html, services.html, placement-career.html, student-records.html, certificate-verification.html and contact.html.

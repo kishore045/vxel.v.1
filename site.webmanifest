@@ -1,0 +1,20 @@
+{
+  "name": "G.K Training Institute",
+  "short_name": "G.K Training",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0b2f5f",
+  "icons": [
+    {
+      "src": "images/gk-institute-logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/gk-institute-logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

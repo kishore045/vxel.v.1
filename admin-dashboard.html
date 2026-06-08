@@ -1,523 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+  <title>Admin Dashboard | G.K Training Institute</title>
+  <meta name="description" content="Okkur based G.K Training Institute offers Admin dashboard for G.K Training Institute student, payment and certificate record management.">
+  <meta name="keywords" content="G.K Training Institute Okkur, GK Training Institute Okkur, G.K Institute Okkur, Okkur AC technician training, Okkur fridge repair training, Okkur washing machine repair course, Okkur RO filter service training, appliance service training Okkur, AC technician course Okkur Sivagangai, fridge repair course Okkur, washing machine service training Okkur, solar installation training Okkur, G.K Institute of Service Technology Okkur, AC service training Sivagangai, appliance repair institute near Madurai, G.K Training Institute admin dashboard">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="google-site-verification" content="PASTE_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE_HERE">
+  <link rel="canonical" href="https://gktraininginstitute.in/admin-dashboard.html">
+  <link rel="icon" type="image/png" href="images/gk-institute-logo.png">
+  <link rel="apple-touch-icon" href="images/gk-institute-logo.png">
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#0b2f5f">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Admin Dashboard | G.K Training Institute">
+  <meta property="og:description" content="Admin dashboard for G.K Training Institute student, payment and certificate record management.">
+  <meta property="og:url" content="https://gktraininginstitute.in/admin-dashboard.html">
+  <meta property="og:image" content="https://gktraininginstitute.in/images/service-learning/ac-service-training.png">
+  <meta property="og:site_name" content="G.K Training Institute">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Admin Dashboard | G.K Training Institute">
+  <meta name="twitter:description" content="Admin dashboard for G.K Training Institute student, payment and certificate record management.">
+  <meta name="twitter:image" content="https://gktraininginstitute.in/images/service-learning/ac-service-training.png">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","@id":"https://gktraininginstitute.in/#website","name":"G.K Training Institute Okkur","url":"https://gktraininginstitute.in"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":["EducationalOrganization","LocalBusiness"],"@id":"https://gktraininginstitute.in/#organization","name":"G.K Training Institute Okkur","url":"https://gktraininginstitute.in","logo":"https://gktraininginstitute.in/images/gk-institute-logo.png","image":"https://gktraininginstitute.in/images/service-learning/ac-service-training.png","telephone":"+91 8667578566","email":"kishorebabu182005@gmail.com","address":{"@type":"PostalAddress","streetAddress":"Teachers Colony, Okkur","addressLocality":"Okkur, Sivagangai","addressRegion":"Tamil Nadu","postalCode":"630557","addressCountry":"IN"},"openingHours":"Mo-Sa 09:00-18:00","areaServed":["Okkur","Sivagangai","Madurai","Tamil Nadu"],"description":"Okkur based practical appliance service training institute for AC, fridge, washing machine, RO filter and solar installation courses."}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://gktraininginstitute.in"},{"@type":"ListItem","position":2,"name":"Admin Dashboard","item":"https://gktraininginstitute.in/admin-dashboard.html"}]}</script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Admin Dashboard | Vixelry</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="dashboard.css">
+  
+  
+  <link rel="stylesheet" href="dashboard.css?v=81">
 </head>
-<body data-role="admin">
+<body>
   <div class="dash-shell">
     <aside class="sidebar">
-      <a class="dash-brand" href="index.html"><img src="images/vixelry-logo.png" alt="Vixelry"></a>
+      <a class="dash-brand" href="index.html"><img class="dash-logo-img" src="images/gk-institute-logo.png" alt="G.K Institute of Service Technology logo"><span><strong>G.K Institute of Service Technology</strong><small>Admin Portal</small></span></a>
       <nav class="sidebar-menu" aria-label="Admin navigation">
         <button class="sidebar-button active" data-section-target="dashboard"><span>1</span><span>Dashboard</span></button>
-        <button class="sidebar-button" data-section-target="clients"><span>2</span><span>Clients</span></button>
-        <button class="sidebar-button" data-section-target="leads"><span>3</span><span>Leads CRM</span></button>
-        <button class="sidebar-button" data-section-target="projects"><span>4</span><span>Projects</span></button>
-        <button class="sidebar-button" data-section-target="social"><span>5</span><span>Social Media</span></button>
-        <button class="sidebar-button" data-section-target="ads"><span>6</span><span>Ads Manager</span></button>
-        <button class="sidebar-button" data-section-target="analytics"><span>7</span><span>Analytics</span></button>
-        <button class="sidebar-button" data-section-target="ai"><span>8</span><span>AI Tools</span></button>
-        <button class="sidebar-button" data-section-target="finance"><span>9</span><span>Finance</span></button>
-        <button class="sidebar-button sidebar-sub-button" data-section-target="employee-salary"><span>9.1</span><span>Employee Salary</span></button>
-        <button class="sidebar-button" data-section-target="team"><span>10</span><span>Team</span></button>
-        <button class="sidebar-button" data-section-target="reports"><span>11</span><span>Reports</span></button>
-        <button class="sidebar-button" data-section-target="settings"><span>12</span><span>Settings</span></button>
+        <button class="sidebar-button" data-section-target="students"><span>2</span><span>Add Student</span></button>
+        <button class="sidebar-button" data-section-target="profiles"><span>3</span><span>Student Profiles</span></button>
+        <button class="sidebar-button" data-section-target="payments"><span>4</span><span>Payment Details</span></button>
+        <button class="sidebar-button" data-section-target="courses"><span>5</span><span>Courses</span></button>
+        <button class="sidebar-button" data-section-target="certificates"><span>6</span><span>Certificates</span></button>
       </nav>
     </aside>
     <main class="dash-main">
       <header class="dash-topbar">
-        <button class="mobile-menu" data-sidebar-toggle type="button">=</button>
-        <input class="search-box" data-search type="search" placeholder="Search clients, projects, reports...">
-        <div class="top-actions">
-          <div class="notification-wrap">
-            <button class="notification-button" data-notification-toggle type="button" aria-label="Open notifications">
-              <img src="images/notification-bell.avif" alt="">
-              <strong data-notification-count>0</strong>
-            </button>
-            <div class="notification-panel" data-notification-panel aria-hidden="true">
-              <div class="notification-head">
-                <strong>Notifications</strong>
-                <span data-notification-label>0 new</span>
-              </div>
-              <div class="notice-list" data-notifications></div>
-            </div>
-          </div>
-          <div class="profile-chip" aria-label="Logged in profile">
-            <div class="profile-avatar" data-user-initials>VA</div>
-            <div class="profile-meta">
-              <strong data-user-name>Admin</strong>
-              <span>Admin</span>
-            </div>
-          </div>
-          <button class="logout-button" data-logout type="button">Logout</button>
-        </div>
+        <button class="mobile-menu" data-sidebar-toggle type="button">Menu</button>
+        <input class="search-box" data-search type="search" placeholder="Search name, register number, course, status...">
+        <div class="top-actions"><div class="profile-chip"><div class="profile-avatar">AD</div><div class="profile-meta"><strong>Institute Admin</strong><span>Student Records</span></div></div><button class="logout-button" data-logout type="button">Logout</button></div>
       </header>
 
       <section class="section-panel active" data-section="dashboard">
-        <div class="dashboard-head">
-          <div>
-            <h1>Admin Dashboard</h1>
-            <p>Welcome, <strong data-user-name>Admin</strong>. Manage agency operations, clients, finance, analytics, and team workflows.</p>
-          </div>
-        </div>
+        <div class="dashboard-head"><div><h1>Student Admin Dashboard</h1><p>Create student records, update training status, and track fees.</p></div><button class="primary-action" data-open-add type="button">Add Student</button></div>
         <div class="stat-grid" data-stats></div>
         <div class="dashboard-grid">
-          <article class="dash-panel">
-            <h2>Campaign Performance</h2>
-            <div class="bar-chart"><i style="--h:42%"></i><i style="--h:74%"></i><i style="--h:56%"></i><i style="--h:88%"></i><i style="--h:68%"></i><i style="--h:92%"></i></div>
-          </article>
-          <article class="dash-panel"><h2>Quick Status</h2><div class="mini-stat-grid" data-dashboard-health></div></article>
-        </div>
-        <div class="table-card"><h2>Active Projects</h2><div data-project-table></div></div>
-      </section>
-
-      <section class="section-panel" data-section="clients">
-        <div class="dashboard-head">
-          <div>
-            <h1>Clients</h1>
-            <p>Add clients, check account status, and find active work faster.</p>
-          </div>
-        </div>
-        <div class="client-workspace">
-          <article class="dash-panel">
-            <h2>Add Client</h2>
-            <form class="form-stack" data-client-form>
-              <input name="name" type="text" placeholder="Client name" required>
-              <input name="id" type="text" placeholder="Client ID, example: client_uro" required>
-              <input name="owner" type="text" placeholder="Owner, example: usr_client">
-              <input name="phone" type="tel" placeholder="Contact number">
-              <input name="email" type="email" placeholder="Client email">
-              <select name="plan" aria-label="Package or plan">
-                <option value="Starter">Starter</option>
-                <option value="Growth">Growth</option>
-                <option value="Premium">Premium</option>
-              </select>
-              <select name="status" aria-label="Client status">
-                <option value="active">Active</option>
-                <option value="onboarding">Onboarding</option>
-                <option value="inactive">Inactive</option>
-              </select>
-              <button class="primary-action" type="submit">Add Client</button>
-              <p class="form-message" data-client-message></p>
-            </form>
-          </article>
-          <article class="dash-panel">
-            <h2>Client Health</h2>
-            <div class="mini-stat-grid" data-client-stats></div>
-          </article>
-        </div>
-        <div class="table-card">
-          <div class="table-head">
-            <div>
-              <h2>Client Directory</h2>
-              <p>Filter, sort, select clients, and open quick details without leaving this page.</p>
-            </div>
-            <button class="small-action" data-refresh-clients type="button">Refresh</button>
-          </div>
-          <div class="client-tools">
-            <div class="quick-filters" data-client-status-filters>
-              <button class="filter-pill active" data-status-filter="all" type="button">All</button>
-              <button class="filter-pill" data-status-filter="active" type="button">Active</button>
-              <button class="filter-pill" data-status-filter="onboarding" type="button">Onboarding</button>
-              <button class="filter-pill" data-status-filter="inactive" type="button">Inactive</button>
-            </div>
-            <div class="client-selectors">
-              <label>Owner
-                <select data-owner-filter>
-                  <option value="all">All Owners</option>
-                </select>
-              </label>
-              <label>Sort By
-                <select data-client-sort>
-                  <option value="newest">Newest</option>
-                  <option value="oldest">Oldest</option>
-                  <option value="name">Client Name</option>
-                  <option value="activity">Last Activity</option>
-                </select>
-              </label>
-            </div>
-          </div>
-          <div class="bulk-bar" data-bulk-bar hidden>
-            <strong><span data-selected-count>0</span> Clients Selected</strong>
-            <div class="bulk-actions">
-              <button class="small-action" data-bulk-assign type="button">Assign Owner</button>
-              <button class="small-action" data-bulk-export type="button">Export CSV</button>
-              <button class="small-action" data-bulk-pause type="button">Mark Inactive</button>
-              <button class="small-action danger-action" data-bulk-delete type="button">Delete</button>
-            </div>
-          </div>
-          <div data-client-table></div>
-        </div>
-        <aside class="client-drawer" data-client-drawer aria-hidden="true">
-          <div class="drawer-backdrop" data-close-client-drawer></div>
-          <div class="drawer-panel">
-            <div class="drawer-head">
-              <div>
-                <p class="eyebrow-small">Client Details</p>
-                <h2 data-drawer-title>Client</h2>
-              </div>
-              <button class="small-action" data-close-client-drawer type="button">Close</button>
-            </div>
-            <form class="form-stack" data-client-drawer-form>
-              <input name="name" type="text" placeholder="Client name" required>
-              <input name="id" type="text" placeholder="Client ID" required>
-              <input name="owner" type="text" placeholder="Owner">
-              <input name="phone" type="tel" placeholder="Contact number">
-              <input name="email" type="email" placeholder="Client email">
-              <select name="plan" aria-label="Package or plan">
-                <option value="Starter">Starter</option>
-                <option value="Growth">Growth</option>
-                <option value="Premium">Premium</option>
-              </select>
-              <select name="status" aria-label="Client status">
-                <option value="active">Active</option>
-                <option value="onboarding">Onboarding</option>
-                <option value="inactive">Inactive</option>
-              </select>
-              <div class="drawer-metrics">
-                <span>Projects <strong data-drawer-projects>0</strong></span>
-                <span>Paid <strong data-drawer-paid>₹0</strong></span>
-                <span>Pending <strong data-drawer-pending>₹0</strong></span>
-              </div>
-              <div class="activity-list" data-drawer-activities></div>
-              <button class="primary-action" type="submit">Save Client</button>
-            </form>
-          </div>
-        </aside>
-      </section>
-
-      <section class="section-panel" data-section="leads">
-        <div class="dashboard-head"><div><h1>Leads CRM</h1><p>Track qualified leads, sources, status, and follow-ups.</p></div></div>
-        <div class="action-grid">
-          <article class="action-card" data-searchable><h3>New Lead</h3><p>Create lead records and assign follow-up owners.</p><button>Create Lead</button></article>
-          <article class="action-card" data-searchable><h3>Pipeline</h3><p>Move prospects from discovery to proposal and closure.</p><button>Open Pipeline</button></article>
-          <article class="action-card" data-searchable><h3>Assign Tasks</h3><p>Assign sales and project tasks to team members.</p><button>Assign</button></article>
+          <article class="dash-panel"><h2>Course Strength</h2><div class="bar-chart" data-course-bars></div></article>
+          <article class="dash-panel"><h2>Payment Summary</h2><div class="payment-summary" data-payment-summary></div></article>
         </div>
       </section>
 
-      <section class="section-panel" data-section="projects">
-        <div class="dashboard-head"><div><h1>Projects</h1><p>Manage projects, tasks, timelines, team assignments, and linked finance.</p></div></div>
-        <div class="mini-stat-grid project-stats" data-project-stats></div>
-        <div class="client-workspace">
-          <article class="dash-panel">
-            <h2>Add Project</h2>
-            <form class="form-stack" data-project-form>
-              <input name="name" type="text" placeholder="Project name" required>
-              <label class="field-label">Client
-                <select name="clientId" data-project-client-options required></select>
-              </label>
-              <select name="serviceType" aria-label="Service type">
-                <option value="">Select Service Type</option>
-                <option value="Website Development">Website Development</option>
-                <option value="SEO">SEO</option>
-                <option value="Meta Ads">Meta Ads</option>
-                <option value="Google Ads">Google Ads</option>
-                <option value="Social Media Marketing">Social Media Marketing</option>
-                <option value="Content Creation">Content Creation</option>
-                <option value="Branding">Branding</option>
-                <option value="Automation">Automation</option>
-              </select>
-              <input name="manager" type="text" placeholder="Project manager">
-              <label class="field-label">Start Date
-                <input name="startDate" type="date" aria-label="Start date">
-              </label>
-              <label class="field-label">Deadline
-                <input name="endDate" type="date" aria-label="Deadline">
-              </label>
-              <input name="budget" type="number" placeholder="Budget">
-              <input name="seo" type="text" placeholder="SEO Specialist">
-              <input name="ads" type="text" placeholder="Ads Specialist">
-              <input name="content" type="text" placeholder="Content Writer">
-              <input name="designer" type="text" placeholder="Designer">
-              <input name="developer" type="text" placeholder="Developer">
-              <select name="priority" aria-label="Priority">
-                <option>Low</option>
-                <option selected>Medium</option>
-                <option>High</option>
-              </select>
-              <select name="status" aria-label="Status">
-                <option value="onboarding">Onboarding</option>
-                <option value="active">Active</option>
-                <option value="review">Review</option>
-                <option value="completed">Completed</option>
-                <option value="hold">Hold</option>
-              </select>
-              <button class="primary-action" type="submit">Add Project</button>
-              <p class="form-message" data-project-message></p>
-            </form>
-          </article>
-          <article class="dash-panel">
-            <h2>Project Analytics</h2>
-            <div class="analytics-list" data-project-analytics></div>
-          </article>
-        </div>
-        <div class="table-card">
-          <div class="table-head">
-            <div>
-              <h2>Project Workspace</h2>
-              <p>Finance, team, timeline, and tasks are calculated from connected project data.</p>
-            </div>
-            <button class="small-action" data-refresh-projects type="button">Refresh</button>
-          </div>
-          <div class="client-tools">
-            <div class="client-selectors">
-              <label>Client<select data-project-client-filter><option value="all">All Clients</option></select></label>
-              <label>Status<select data-project-status-filter><option value="all">All Statuses</option><option value="onboarding">Onboarding</option><option value="active">Active</option><option value="review">Review</option><option value="completed">Completed</option><option value="hold">Hold</option></select></label>
-              <label>Service<select data-project-service-filter><option value="all">All Services</option></select></label>
-              <label>Manager<select data-project-manager-filter><option value="all">All Managers</option></select></label>
-            </div>
-          </div>
-          <div data-project-table></div>
-        </div>
-        <aside class="client-drawer" data-project-drawer aria-hidden="true">
-          <div class="drawer-backdrop" data-close-project-drawer></div>
-          <div class="drawer-panel project-drawer-panel">
-            <div class="drawer-head">
-              <div><p class="eyebrow-small">Project Workspace</p><h2 data-project-drawer-title>Project</h2></div>
-              <button class="small-action" data-close-project-drawer type="button">Close</button>
-            </div>
-            <div class="drawer-metrics">
-              <span>Budget <strong data-project-budget>₹0</strong></span>
-              <span>Invoiced <strong data-project-invoiced>₹0</strong></span>
-              <span>Received <strong data-project-received>₹0</strong></span>
-              <span>Pending <strong data-project-pending>₹0</strong></span>
-            </div>
-            <div class="project-detail-grid">
-              <section><h3>Overview</h3><div data-project-overview></div></section>
-              <section><h3>Assigned Team</h3><div data-project-team></div></section>
-              <section><h3>Tasks</h3><div data-project-tasks></div></section>
-              <section><h3>Timeline</h3><div data-project-timeline></div></section>
-              <section><h3>Linked Invoices</h3><div data-project-invoices></div></section>
-              <section><h3>Recent Activity</h3><div class="activity-list" data-project-activity></div></section>
-            </div>
-            <form class="form-stack" data-project-task-form>
-              <h3>Add Task</h3>
-              <input name="name" type="text" placeholder="Task name" required>
-              <input name="assignee" type="text" placeholder="Assignee">
-              <input name="dueAt" type="date" aria-label="Due date">
-              <select name="status" aria-label="Task status"><option value="pending">Pending</option><option value="in progress">In Progress</option><option value="review">Review</option><option value="completed">Completed</option></select>
-              <button class="primary-action" type="submit">Add Task</button>
-            </form>
-          </div>
-        </aside>
-      </section>
-
-      <section class="section-panel" data-section="social">
-        <div class="dashboard-head"><div><h1>Social Media</h1><p>Manage social clients, accounts, content workflow, approvals, scheduling, campaigns, and reports.</p></div><button class="small-action" data-refresh-social type="button">Refresh</button></div>
-        <div class="mini-stat-grid social-stats" data-social-stats></div>
-        <div class="client-workspace">
-          <article class="dash-panel">
-            <h2>Create Content</h2>
-            <form class="form-stack" data-social-post-form>
-              <select name="clientId" data-social-client-options required></select>
-              <select name="projectId" data-social-project-options></select>
-              <input name="title" type="text" placeholder="Content title" required>
-              <textarea name="caption" placeholder="Caption"></textarea>
-              <select name="platform"><option>Instagram</option><option>Facebook</option><option>LinkedIn</option><option>YouTube</option><option>Twitter/X</option><option>Threads</option><option>Pinterest</option></select>
-              <select name="postType"><option>Static Post</option><option>Reels</option><option>Videos</option><option>Stories</option><option>Carousels</option><option>Blogs</option></select>
-              <input name="designer" type="text" placeholder="Designer">
-              <input name="writer" type="text" placeholder="Content writer">
-              <input name="dueAt" type="date" aria-label="Due date">
-              <input name="scheduledAt" type="datetime-local" aria-label="Schedule date and time">
-              <input name="hashtags" type="text" placeholder="#hashtags">
-              <select name="status"><option value="idea">Idea</option><option value="draft">Draft</option><option value="designing">Designing</option><option value="review">Review</option><option value="client approval">Client Approval</option><option value="scheduled">Scheduled</option><option value="published">Published</option></select>
-              <button class="primary-action" type="submit">Save Content</button>
-            </form>
-          </article>
-          <article class="dash-panel">
-            <h2>Connect Account</h2>
-            <form class="form-stack" data-social-account-form>
-              <select name="clientId" data-social-account-client-options required></select>
-              <select name="platform"><option>Instagram</option><option>Facebook</option><option>LinkedIn</option><option>YouTube</option><option>Twitter/X</option><option>Threads</option><option>Pinterest</option></select>
-              <input name="handle" type="text" placeholder="@handle or page URL" required>
-              <button class="primary-action" type="submit">Connect Account</button>
-            </form>
-            <h2>Campaign</h2>
-            <form class="form-stack" data-social-campaign-form>
-              <select name="clientId" data-social-campaign-client-options required></select>
-              <input name="name" type="text" placeholder="Campaign name" required>
-              <input name="objective" type="text" placeholder="Objective">
-              <input name="budget" type="number" placeholder="Budget">
-              <input name="startAt" type="date" aria-label="Start date">
-              <input name="endAt" type="date" aria-label="End date">
-              <button class="primary-action" type="submit">Create Campaign</button>
-            </form>
-          </article>
-        </div>
-        <div class="dashboard-grid">
-          <article class="table-card"><h2>Content Workflow</h2><div data-social-post-table></div></article>
-          <article class="table-card"><h2>Approval Queue</h2><div data-social-approval-table></div></article>
-        </div>
-        <div class="dashboard-grid">
-          <article class="table-card"><h2>Scheduling Queue</h2><div data-social-schedule-table></div></article>
-          <article class="table-card"><h2>Connected Accounts</h2><div data-social-account-table></div></article>
-        </div>
-        <div class="dashboard-grid">
-          <article class="table-card"><h2>Campaign Tracking</h2><div data-social-campaign-table></div></article>
-          <article class="dash-panel"><h2>Monthly Content Calendar</h2><div class="calendar-grid" data-social-calendar></div></article>
-        </div>
-      </section>
-
-      <section class="section-panel" data-section="ads">
-        <div class="dashboard-head"><div><h1>Ads Manager</h1><p>Meta and Google campaign controls.</p></div></div>
-        <div class="dashboard-grid">
-          <article class="dash-panel"><h2>Spend Trend</h2><div class="bar-chart"><i style="--h:35%"></i><i style="--h:62%"></i><i style="--h:78%"></i><i style="--h:66%"></i></div></article>
-          <article class="dash-panel"><h2>ROAS</h2><div class="donut"><strong>4.8x</strong></div></article>
-        </div>
-      </section>
-
-      <section class="section-panel" data-section="analytics">
-        <div class="dashboard-head"><div><h1>Analytics</h1><p>Cross-client reports and performance insights.</p></div></div>
-        <div class="dashboard-grid">
-          <article class="dash-panel"><h2>Traffic</h2><div class="bar-chart"><i style="--h:58%"></i><i style="--h:76%"></i><i style="--h:82%"></i><i style="--h:95%"></i></div></article>
-          <article class="dash-panel"><h2>Conversions</h2><div class="donut"><strong>72%</strong></div></article>
-        </div>
-      </section>
-
-      <section class="section-panel" data-section="ai">
-        <div class="dashboard-head"><div><h1>AI Tools</h1><p>Generate briefs, reports, content ideas, and workflow summaries.</p></div></div>
-        <div class="action-grid">
-          <article class="action-card"><h3>Report Generator</h3><p>Create client-ready summaries.</p><button>Generate</button></article>
-          <article class="action-card"><h3>Content Ideas</h3><p>Draft campaign content angles.</p><button>Open</button></article>
-          <article class="action-card"><h3>Automation</h3><p>Build repeatable operations.</p><button>Configure</button></article>
-        </div>
-      </section>
-
-      <section class="section-panel" data-section="finance">
-        <div class="dashboard-head"><div><h1>Finance</h1><p>Agency finance workspace for invoices, expenses, revenue, and client profitability.</p></div></div>
-        <div class="mini-stat-grid finance-stats" data-finance-stats></div>
-        <article class="dash-panel"><h2>Revenue Analytics</h2><div class="analytics-list" data-finance-analytics></div></article>
-        <div class="client-workspace">
-          <article class="dash-panel">
-            <h2>Create Invoice</h2>
-            <form class="form-stack" data-invoice-form>
-              <select name="clientId" data-finance-client-options required></select>
-              <select name="projectId" data-finance-project-options required></select>
-              <input name="itemName" type="text" placeholder="Item / service name" required>
-              <textarea name="description" placeholder="Description"></textarea>
-              <input name="quantity" type="number" min="1" value="1" placeholder="Quantity" required>
-              <input name="price" type="number" min="0" placeholder="Price" required>
-              <input name="gstPercent" type="number" value="18" placeholder="GST %">
-              <input name="amount" type="number" placeholder="Amount" readonly>
-              <input name="dueAt" type="date" aria-label="Due date">
-              <textarea name="notes" placeholder="Notes"></textarea>
-              <button class="primary-action" type="submit">Save Invoice</button>
-              <p class="form-message" data-finance-message></p>
-            </form>
-          </article>
-          <article class="dash-panel">
-            <h2>Add Expense</h2>
-            <form class="form-stack" data-expense-form>
-              <input name="title" type="text" placeholder="Expense title" required>
-              <select name="clientId" data-expense-client-options></select>
-              <select name="projectId" data-expense-project-options></select>
-              <select name="category">
-                <option>Meta Ads</option><option>Google Ads</option><option>Rent</option><option>Internet</option><option>Electricity</option><option>Equipment</option><option>Software Subscriptions</option><option>Travel</option><option>Miscellaneous</option>
-              </select>
-              <input name="amount" type="number" placeholder="Amount" required>
-              <input name="vendor" type="text" placeholder="Vendor">
-              <input name="date" type="date" aria-label="Expense date">
-              <textarea name="notes" placeholder="Notes"></textarea>
-              <button class="primary-action" type="submit">Add Expense</button>
-            </form>
-          </article>
-        </div>
-        <article class="dash-panel finance-rule-panel">
-          <h2>Finance Data Rule</h2>
-          <div class="activity-list">
-            <div>Pending Payments are calculated only from unpaid invoices.</div>
-            <div>Expenses are tracked separately and reduce Net Profit.</div>
-          </div>
-        </article>
-        <div class="dashboard-grid">
-          <article class="table-card"><div class="table-head"><div><h2>Invoice Management</h2><p>Create invoices and track payment status.</p></div><button class="small-action" type="button">Create Invoice</button></div><div data-invoice-table></div></article>
-          <article class="table-card"><h2>Pending Payments</h2><div data-pending-payment-table></div></article>
-        </div>
-        <div class="dashboard-grid">
-          <article class="table-card"><h2>Expense Tracker</h2><div data-expense-table></div></article>
-          <article class="dash-panel"><h2>Client-wise Revenue</h2><div class="analytics-list" data-client-revenue></div></article>
-        </div>
-        <div class="dashboard-grid">
-          <article class="dash-panel"><h2>GST Summary</h2><div class="drawer-metrics" data-gst-summary></div></article>
-          <article class="dash-panel"><h2>Reports</h2><div class="bulk-actions"><button class="small-action" data-export-finance-csv type="button">Export CSV</button><button class="small-action" type="button">Export PDF</button><button class="small-action" type="button">Export Excel</button></div></article>
-        </div>
-      </section>
-
-      <section class="section-panel" data-section="employee-salary">
-        <div class="dashboard-head"><div><h1>Employee Salary</h1><p>Payroll workspace under Finance. Manage salary records separately from invoices and expenses.</p></div></div>
-        <div class="mini-stat-grid" data-employee-salary-stats></div>
-        <div class="client-workspace">
-          <article class="dash-panel">
-            <h2>Add Employee Salary</h2>
-            <form class="form-stack" data-employee-form>
-              <input name="name" type="text" placeholder="Employee name" required>
-              <input name="role" type="text" placeholder="Role" required>
-              <input name="salary" type="number" placeholder="Monthly salary" required>
-              <select name="paid"><option value="false">Pending Salary</option><option value="true">Already Paid</option></select>
-              <button class="primary-action" type="submit">Save Employee</button>
-            </form>
-          </article>
-          <article class="dash-panel">
-            <h2>Payroll Rule</h2>
-            <div class="activity-list">
-              <div>Salary records are managed only in this Employee Salary workspace.</div>
-              <div>Mark Paid will add that salary as an expense for Net Profit calculation.</div>
-            </div>
-          </article>
-        </div>
-        <div class="table-card">
-          <div class="table-head"><div><h2>Salary Records</h2><p>Add, edit, mark paid, or delete employee salary records.</p></div><button class="small-action" data-process-payroll type="button">Process Payroll</button></div>
-          <div data-employee-salary-table></div>
-        </div>
-      </section>
-
-      <section class="section-panel" data-section="team">
-        <div class="dashboard-head"><div><h1>Team</h1><p>Manage members, assignments, and permissions. Admin-only area.</p></div></div>
-        <div class="action-grid">
-          <article class="action-card"><h3>Members</h3><p>Add team members and assign roles.</p><button>Add Member</button></article>
-          <article class="action-card"><h3>Tasks</h3><p>Assign tasks to designers, marketers, and editors.</p><button>Assign Task</button></article>
-          <article class="action-card"><h3>Workload</h3><p>Review capacity and deadlines.</p><button>Open</button></article>
-        </div>
-      </section>
-
-      <section class="section-panel" data-section="reports">
-        <div class="dashboard-head"><div><h1>Reports</h1><p>Create and export client reports.</p></div></div>
-        <div class="table-card"><h2>Reports Table</h2><div data-report-table></div></div>
-        <aside class="client-drawer" data-report-drawer aria-hidden="true">
-          <div class="drawer-backdrop" data-close-report-drawer></div>
-          <div class="drawer-panel project-drawer-panel">
-            <div class="drawer-head">
-              <div><p class="eyebrow-small">Report Preview</p><h2 data-report-title>Report</h2></div>
-              <button class="small-action" data-close-report-drawer type="button">Close</button>
-            </div>
-            <div class="activity-list" data-report-detail></div>
-            <div class="bulk-actions">
-              <button class="small-action" data-report-download-pdf type="button">Download PDF</button>
-              <button class="small-action" data-report-export-excel type="button">Export Excel</button>
-              <button class="small-action" data-report-email-client type="button">Email Client</button>
-            </div>
-          </div>
-        </aside>
-      </section>
-
-      <section class="section-panel" data-section="settings">
-        <div class="dashboard-head"><div><h1>Settings</h1><p>Manage agency settings, security, and system preferences. Admin-only area.</p></div></div>
-        <div class="dash-panel">
-          <form class="form-stack">
-            <input type="text" value="Vixelry Digital Marketing Agency" aria-label="Agency name">
-            <select aria-label="Default timezone"><option>Asia/Kolkata</option></select>
-            <button class="primary-action" type="button">Save Settings</button>
+      <section class="section-panel" data-section="students">
+        <div class="dashboard-head"><div><h1 data-form-title>Add Student</h1><p>Upload any photo file. Web images show preview; RAW/ARW files will not block student creation.</p></div></div>
+        <article class="dash-panel">
+          <form class="student-form" data-student-form>
+            <input name="editingId" type="hidden">
+            <label>Student Name<input name="name" type="text" placeholder="Example: Kishore Babu" required></label>
+            <label>Register Number<input name="registerNo" type="text" placeholder="Example: GK2026001"></label>
+            <label>Phone<input name="phone" type="tel" placeholder="86675 78566"></label>
+            <label>Student Photo<input name="photo" type="file"><small>Any file accepted. JPG, PNG, WebP, GIF, AVIF, SVG preview only.</small></label>
+            <label>Course<select name="course"><option>AC Technician Course</option><option>Fridge Repair Course</option><option>RO Filter Service Course</option><option>Washing Machine Service</option><option>Appliance Service Combo</option><option>Solar Installation / Maintenance Course</option><option>Solar Installation / Maintenance</option></select></label>
+            <label>Year Passed Out<input name="yearPassedOut" type="number" min="2020" max="2040" placeholder="2026"></label>
+            <label>Training Status<select name="status"><option>Studying</option><option>Completed</option><option>Placed</option></select></label>
+            <label>Fees Status<select name="fees"><option>Pending</option><option>Part Paid</option><option>Paid</option></select></label>
+            <label>Total Fees<input name="totalFees" type="number" min="0" step="1" placeholder="Example: 25000"></label>
+            <label>Paid Amount<input name="paidAmount" type="number" min="0" step="1" placeholder="Example: 10000"></label>
+            <label>Payment Mode<select name="paymentMode"><option>Cash</option><option>UPI</option><option>Bank Transfer</option><option>Card</option></select></label>
+            <label class="full">Address<textarea name="address" placeholder="Student address"></textarea></label>
+            <label class="full">Payment Notes<textarea name="paymentNote" placeholder="Installment notes, due date, receipt details"></textarea></label>
+            <div class="form-actions full"><button class="primary-action" type="submit">Save Student</button><button class="small-action" data-cancel-edit type="button">Cancel Edit</button></div>
+            <p class="form-message full" data-form-message></p>
           </form>
+        </article>
+      </section>
+
+      <section class="section-panel" data-section="profiles">
+        <div class="dashboard-head"><div><h1>Student Profiles</h1><p>Edit, remove, and update student training or fee status.</p></div></div>
+        <div class="student-grid" data-student-grid></div>
+      </section>
+
+      <section class="section-panel" data-section="payments">
+        <div class="dashboard-head"><div><h1>Payment Details</h1><p>Revenue received and pending amount are calculated from student payment details.</p></div></div>
+        <div class="stat-grid" data-payment-stats></div>
+        <div class="payment-list" data-payment-list></div>
+      </section>
+
+      <section class="section-panel" data-section="courses">
+        <div class="dashboard-head"><div><h1>Courses</h1><p>Course structure for G.K Institute of Service Technology.</p></div></div>
+        <div class="course-admin-grid">
+          <article><strong>AC Technician Course</strong><span>45 days practical training</span></article>
+          <article><strong>Fridge Repair Course</strong><span>30 days cooling system basics</span></article>
+          <article><strong>RO Filter Service</strong><span>15 days installation and service</span></article>
+          <article><strong>Appliance Service Combo</strong><span>90 days job-ready program</span></article>
+          <article><strong>Solar Installation / Maintenance</strong><span>30 days solar panel, inverter and maintenance basics</span></article>
         </div>
+      </section>
+
+      <section class="section-panel" data-section="certificates">
+        <div class="dashboard-head"><div><h1>Certificate Updates</h1><p>Select a student and update certificate number, issue date, and verification status.</p></div><a class="small-action" href="certificate-verification.html" target="_blank" rel="noreferrer">Open Verification Page</a></div>
+        <article class="dash-panel">
+          <form class="student-form certificate-admin-form" data-certificate-form>
+            <label>Student<select name="studentId" data-certificate-student required><option value="">Select student</option></select></label>
+            <label>Certificate Number<input name="certificateNo" type="text" placeholder="Example: GK-CERT-2026-001" required></label>
+            <label>Course / Certificate Title<input name="certificateTitle" type="text" placeholder="AC Technician Practical"></label>
+            <label>Issued Date<input name="certificateIssueDate" type="date"></label>
+            <label>Certificate Image<input name="certificateFile" type="file" accept="image/*,.pdf"><small>Upload certificate image. JPG/PNG/WebP works best for public preview.</small></label>
+            <label>Status<select name="certificateStatus"><option>Not Issued</option><option>Issued</option><option>Verified</option></select></label>
+            <label class="full">Certificate Notes<textarea name="certificateNote" placeholder="Practical test completed, certificate verified, placement eligible..."></textarea></label>
+            <div class="form-actions full"><button class="primary-action" type="submit">Save Certificate</button><button class="small-action" data-clear-certificate type="button">Clear</button></div>
+            <p class="form-message full" data-certificate-message></p>
+          </form>
+        </article>
+        <div class="certificate-admin-list" data-certificate-admin-list></div>
       </section>
     </main>
   </div>
-  <script src="config.js?v=2"></script>
-  <script src="dashboard.js?v=2"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore-compat.js"></script>
+  <script src="config.js?v=70"></script>
+  <script src="dashboard.js?v=70"></script>
 </body>
 </html>
