@@ -125,7 +125,7 @@ document.querySelector("[data-contact-form]")?.addEventListener("submit", async 
     form.reset();
     if (message) message.textContent = "Enquiry submitted successfully. We will contact you soon.";
   } catch (error) {
-    const subject = encodeURIComponent("New Contact Enquiry - G.K Home Appliances Institute");
+    const subject = encodeURIComponent("New Contact Enquiry - G.K TECHNICAL TRAINING INSTITUTE");
     const lines = [];
     formData.forEach((value, key) => {
       if (!key.startsWith("_")) lines.push(key + ": " + value);
